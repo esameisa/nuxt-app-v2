@@ -1,0 +1,17 @@
+$color1: #fdeee6;
+$color2: #5391f9;
+$color3: #1f274c;
+
+body {
+  background: $color1;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
